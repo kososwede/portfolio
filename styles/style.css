@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.nav-font {
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+
+body {
+    background-image: url(../assets/images/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
