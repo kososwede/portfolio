@@ -1,32 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
-.nav-font {
+.header-font {
     font-family: 'Caveat', cursive;
     font-weight: bolder;
+    font-size: 90px;
+    padding-top: 60px;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  height: 50px;
+.subhead-font {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.ci-link {
+    color: blanchedalmond;
+}
+
+.profiles {
+    padding-top: 40px;
+}
+
+.projectbtn {
+    margin-right: 20px;
+}
+
+.aboutbtn {
+    margin-left: 20px;
 }
 
 body {
     background-image: url(../assets/images/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .fa-linkedin {
+    background-color: blue;
     color: white;
+    padding: 5px;
+    border-radius: 25%;
 }
 
 .fa-github {
-    color: black;
     background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 25%;
 }
