@@ -14,38 +14,32 @@
 }
 
 .ci-link {
-    color: blanchedalmond;
+    color: red;
 }
 
-.profiles {
-    padding-top: 40px;
-}
-
-.projectbtn {
-    margin-right: 20px;
-}
-
-.aboutbtn {
-    margin-left: 20px;
-}
-
+html,
 body {
     background-image: url(../assets/images/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
-.fa-linkedin {
-    background-color: blue;
-    color: white;
-    padding: 5px;
-    border-radius: 25%;
+.row {
+  display: flex;
+  padding-bottom: 25px;
 }
 
-.fa-github {
-    background-color: white;
-    color: black;
-    padding: 5px;
-    border-radius: 25%;
+.col-xs-12 
+.col-sm-6 {
+  flex: 25%;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
 }
